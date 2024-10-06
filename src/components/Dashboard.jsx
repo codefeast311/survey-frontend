@@ -88,7 +88,7 @@ const Dashboard = () => {
       </Row>
       <Row justify="center" style={{ marginTop: '20px' }}>
         <Col>
-          <Button type="primary" href="/create-survey" style={{ width: '100%' }}>
+          <Button type="primary" href="/#/create-survey" style={{ width: '100%' }}>
             Create New Survey
           </Button>
         </Col>
