@@ -47,7 +47,7 @@ const Dashboard = () => {
 
   // Function to handle sharing survey
   const shareSurvey = (surveyId) => {
-    const link = `${window.location.origin}/survey/${surveyId}`;
+    const link = `${window.location.origin}/#/survey/${surveyId}`;
     setShareLink(link);
     setShareVisible(true);
   };
